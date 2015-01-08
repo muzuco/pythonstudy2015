@@ -13,7 +13,7 @@ def index():
 def send_email():
     # login info
     username = 'buskerlic'
-    password = 'rhrhtld1@g'
+    password = '*****'
     toaddrs = 'muzuco@netmarble.com'
     fromaddrs = 'buskerlic@gmail.com'
     title = request.form['Title']
