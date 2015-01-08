@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Web Phonebook</title>
+    </head>
+    <body onload="op();">
+       <h1>Phonebook!</h1>
+       <div>
+            <form method="POST" action="/update_phonebook" >
+                <p> name : <input type="text" name="name" />
+                    phone : <input type="text" name="number" />
+                    <input type="submit" name="Submit" value="ADD" /></p>
+            </form>
+        </div>
+        <div id="lists" style="height:200px;width:532px;border:1px solid #ccc;overflow:auto;">   
+            {{ data }}
+        </div>
+     </body>
+</html>
