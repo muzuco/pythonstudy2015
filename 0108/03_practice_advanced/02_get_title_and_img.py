@@ -6,4 +6,4 @@ soup = BeautifulSoup(urllib2.urlopen(url))
 print 'Title :', soup.title.string
 print 'img URLs :'
 for i, link in enumerate(soup.findAll('link')):
-    print '    %2d %s' %(i, link.get('href'))
+    print '    %2d %s' % (i, link.get('href'))

@@ -11,7 +11,7 @@ class BankAccount(object):
 my_account = BankAccount(15)
 while not my_account.overdrawn():
     my_account.withdraw(5)
-    print 'balance :',my_account.balance
+    print 'balance :', my_account.balance
     
 '''
 my_account = BankAccount(15)

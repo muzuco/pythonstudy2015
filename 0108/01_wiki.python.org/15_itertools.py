@@ -9,7 +9,7 @@ this is the second.
 print len(lines)
 
 print '-------------'
-for i,tmp in enumerate(lines):
+for i, tmp in enumerate(lines):
     print 'line {num} : {str}'.format(num=i, str=tmp)
     
 print '-------------' 

@@ -12,7 +12,7 @@ def median(pool):
     print 'copy : ' + str(copy)
     size = len(copy)
     print 'size : ' + str(size)
-    print '(size-1) / 2 = ' + str((size-1) / 2)
+    print '(size-1) / 2 = ' + str((size - 1) / 2)
     print 'size % 2 = ' + str(size % 2)
     if size % 2 == 1:
         print 'return : ' + str((size - 1) / 2)

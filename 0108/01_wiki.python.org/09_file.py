@@ -1,5 +1,5 @@
 import glob
-python_files=glob.glob('*.py')
+python_files = glob.glob('*.py')
 for file_name in sorted(python_files):
     print '    -----' , file_name
     
